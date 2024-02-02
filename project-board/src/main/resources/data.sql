@@ -881,13 +881,13 @@ insert into article_comment (article_id, user_id, parent_comment_id, content, cr
 ;
 
 -- 대댓글
-insert into article_comment (article_id, user_id, parent_comment_id, content, created_at, modified_at, created_by, modified_by) values
-(49, 'uno', 1, '퍼가요~', '2021-03-02 22:40:04', '2021-04-27 15:38:09', 'Uno', 'Uno'),
-(49, 'uno2', 1, '퍼가요~', '2021-03-03 22:40:04', '2021-04-27 15:38:09', 'Uno2', 'Uno2'),
-(49, 'uno', 1, '또 퍼가요~', '2021-03-04 22:40:04', '2021-04-27 15:38:09', 'Uno', 'Uno'),
-(49, 'uno', 1, '또또 퍼가요~', '2021-03-05 22:40:04', '2021-04-27 15:38:09', 'Uno', 'Uno')
-;
-
+-- insert into article_comment (article_id, user_id, parent_comment_id, content, created_at, modified_at, created_by, modified_by) values
+-- (49, 'uno', 1, '퍼가요~', '2021-03-02 22:40:04', '2021-04-27 15:38:09', 'Uno', 'Uno'),
+-- (49, 'uno2', 1, '퍼가요~', '2021-03-03 22:40:04', '2021-04-27 15:38:09', 'Uno2', 'Uno2'),
+-- (49, 'uno', 1, '또 퍼가요~', '2021-03-04 22:40:04', '2021-04-27 15:38:09', 'Uno', 'Uno'),
+-- (49, 'uno', 1, '또또 퍼가요~', '2021-03-05 22:40:04', '2021-04-27 15:38:09', 'Uno', 'Uno')
+-- ;
+--
 insert into hashtag (hashtag_name, created_at, modified_at, created_by, modified_by) values
 ('blue', now(), now(), 'uno', 'uno'),
 ('crimson', now(), now(), 'uno', 'uno'),
@@ -1007,4 +1007,4 @@ insert into article_hashtag (article_id, hashtag_id) values
 (119, 12),
 (120, 18),
 (122, 18)
-;
+ ;
